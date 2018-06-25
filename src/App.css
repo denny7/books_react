@@ -1,0 +1,211 @@
+.headerRow {
+  margin: 20px 0px;
+  background-color: #f2f2f2;
+}
+
+.bookPicture {
+  width: 150px;
+  margin: 10px;
+}
+
+.headerTextRow {
+  margin-top: 15px;
+}
+
+.categoryHolder {
+  margin: 20px 0px;
+  background-color: #f2f2f2;
+}
+
+.filterBtn {
+  margin: 10px;
+}
+
+.filterBtn:first-of-type {
+  margin-left: 0px;
+}
+
+.activeStar {
+  filter: drop-shadow(0px 0px 2px #454647);
+  color: #218838;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.inactiveStar {
+  filter: drop-shadow(0px 0px 2px #454647);
+  color: #f2f2f2;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-success::after {
+  content: " X";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.priceContainer, .ratingContainer {
+  padding: 0 !important;
+  background-color: #f2f2f2;
+}
+
+.priceContainer {
+  border-right: 20px solid #fff;
+}
+
+.rangeComponent, .ratingComponent {
+  padding-left: 15px;
+}
+.sliderComp {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.starsContainer span{
+  margin: 0 auto;
+}
+
+.starsContainer {
+  text-align: center;
+}
+
+.booksContainer {
+  margin: 20px 0px;
+  background-color: #f2f2f2;
+}
+
+.logoPic {
+  width: 100px;
+}
+
+.bookHolder {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #454647;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.modalButton {
+  margin-top: 20px;
+}
+
+.modalButton::after {
+  content: "";
+}
+
+.modalWrapper {
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 1;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 500;
+  display: none;
+}
+
+.modalBody {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  background: #f2f2f2;;
+  z-index: 501;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+}
+
+.modalBody form input {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 2px 5px;
+}
+
+.modalBody form select {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 2px 0px;
+}
+
+.modalBody form {
+  text-align: left;
+  padding: 20px;
+
+}
+.modalBody button {
+  width: 90%;
+  border: 1px solid rgba(0,0,0,0.4) !important;
+}
+
+.modalTitle {
+  text-align: center
+}
+
+.modalContainer {
+  margin: 15px 0 0 20px;
+}
+.successAdd {
+  color: #218838;
+}
+
+.failAdd {
+  color: #c82333;
+}
+
+.minPricePar, .maxPricePar {
+  text-align: center;
+}
+
+form > .row {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .row {
+    padding: 0 !important;
+    margin: 0 0 15px 0!important;
+  }
+
+  .headerRow {
+    text-align: center
+  }
+
+  .filterBtn, .filterBtn {
+    width: 100%;
+  }
+
+  .filterBtn:first-of-type {
+    margin-left: 10px;
+  }
+  
+  .modalCont {
+    width: 100% !important;
+    padding-left: 15px;
+  }
+
+  .priceContainer {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerRow h2 {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+  
+  .headerRow h4 {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+}

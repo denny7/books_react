@@ -1,0 +1,32 @@
+{
+   "books": [
+        { "id": 1, "title": "Learn ReactJS", "author": "Author 1", "type": "science", "price": "20", "rating": 3 },
+        { "id": 2, "title": "Learn HTML", "author": "Author 2", "type": "horror", "price": "15", "rating": 3 },
+        { "id": 3, "title": "Learn AngularJS", "author": "Author 3", "type": "drama", "price": "25", "rating": 2 },
+        { "id": 4, "title": "Learn CSS", "author": "Author 4", "type": "sport", "price": "83", "rating": 4 },
+        { "id": 5, "title": "Just have fun", "author": "Author 5", "type": "roman", "price": "50", "rating": 5 },
+        { "id": 6, "title": "Learn ReactJS", "author": "Author 1", "type": "horror", "price": "20", "rating": 4 },
+        { "id": 7, "title": "Learn HTML", "author": "Author 2", "type": "comedy", "price": "15", "rating": 1 },
+        { "id": 8, "title": "Learn AngularJS", "author": "Author 3", "type": "roman", "price": "25", "rating": 1 },
+        { "id": 9, "title": "Learn CSS", "author": "Author 4", "type": "comedy", "price": "77", "rating": 2 },
+        { "id": 10, "title": "Just have fun", "author": "Author 5", "type": "sport", "price": "50", "rating": 2 },        
+        { "id": 11, "title": "Learn HTML", "author": "Author 2", "type": "roman", "price": "15", "rating": 5 },
+        { "id": 12, "title": "Learn AngularJS", "author": "Author 3", "type": "horror", "price": "25", "rating": 4 },
+        { "id": 13, "title": "Learn CSS", "author": "Author 4", "type": "history", "price": "75", "rating": 4 },
+        { "id": 14, "title": "Just have fun", "author": "Author 5", "type": "science", "price": "50", "rating": 1 },
+        { "id": 15, "title": "Learn ReactJS", "author": "Author 1", "type": "history", "price": "20", "rating": 3 },
+        { "id": 16, "title": "Learn HTML", "author": "Author 2", "type": "roman", "price": "15", "rating": 3 },
+        { "id": 17, "title": "Learn AngularJS", "author": "Author 3", "type": "drama", "price": "25", "rating": 2 },
+        { "id": 18, "title": "Learn CSS", "author": "Author 4", "type": "horror", "price": "64", "rating": 4 },
+        { "id": 19, "title": "Just have fun", "author": "Author 5", "type": "sport", "price": "50", "rating": 5 },
+        { "id": 20, "title": "Learn ReactJS", "author": "Author 1", "type": "history", "price": "20", "rating": 4 },
+        { "id": 74, "title": "Learn HTML", "author": "Author 2", "type": "roman", "price": "43", "rating": 1 },
+        { "id": 844, "title": "Learn AngularJS", "author": "Author 3", "type": "drama", "price": "25", "rating": 1 },
+        { "id": 95454, "title": "Learn CSS", "author": "Author 4", "type": "sport", "price": "99", "rating": 2 },
+        { "id": 124240, "title": "Just have fun", "author": "Author 5", "type": "science", "price": "50", "rating": 2 },      
+        { "id": 125251, "title": "Learn HTML", "author": "Author 2", "type": "comedy", "price": "34", "rating": 5 },
+        { "id": 125252, "title": "Learn AngularJS", "author": "Author 3", "type": "drama", "price": "25", "rating": 4 },
+        { "id": 12523, "title": "Learn CSS", "author": "Author 4", "type": "comedy", "price": "1", "rating": 4 },
+        { "id": 125254, "title": "Just have fun", "author": "Author 5", "type": "history", "price": "50", "rating": 1 }
+      ]
+}
