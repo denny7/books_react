@@ -57,11 +57,28 @@
 .rangeComponent, .ratingComponent {
   padding-left: 15px;
 }
+
 .sliderComp {
   width: 80%;
   margin: 0 auto;
+  padding: 20px 0 30px 0;
 }
 
+.input-range__track--background {
+  background: #fff !important;
+}
+
+.input-range__track--active {
+  background: #218838 !important;
+}
+
+.input-range__slider {
+  background: #5cb85c !important;
+}
+
+.input-range__label-container{
+  color: #000;
+}
 .starsContainer span{
   margin: 0 auto;
 }

@@ -24,7 +24,7 @@ export default class App extends Component {
         { value: "horror", active: true },
       ],
       activeBooks: [],
-      sliderValues: { start: 0, end: 100 },
+      sliderValues: { min: 0, max: 100 },
       rating: 4
     }
   }
@@ -50,8 +50,8 @@ export default class App extends Component {
   }
 
   getFilteredBooksByPrice = (list) => {
-    const minPrice = this.state.sliderValues.start;
-    const maxPrice = this.state.sliderValues.end;
+    const minPrice = this.state.sliderValues.min;
+    const maxPrice = this.state.sliderValues.max;
     const filteredBooksByPrice = list.filter(book => (book.price >= minPrice && book.price <= maxPrice));
     this.setState({ activeBooks: filteredBooksByPrice });
     return filteredBooksByPrice;

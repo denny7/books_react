@@ -12,7 +12,7 @@ export class FilterRating extends Component{
 
         return(
             <div className="ratingComponent">
-                <h1> Rating </h1>
+                <h2> Rating </h2>
                 <h4> Choose rating </h4>
                 <div className="starsContainer">
                     <span className={ONE_STAR <= this.props.rating ? "activeStar" : "inactiveStar"} onClick={this.props.handleClickRating.bind(this,ONE_STAR)}>

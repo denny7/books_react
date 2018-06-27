@@ -9,7 +9,7 @@ export class BooksHolder extends Component {
         return (
             <div className="booksContainer row">
                 <div className="col-sm-10">
-                    <h1> Results </h1>
+                    <h2> Results </h2>
                     <h4>{this.props.books.length} results </h4>
                 </div>
                 <ModalContainer className="col-sm-2" handleAddBook={this.props.handleAddBook}/>

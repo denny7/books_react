@@ -8,7 +8,7 @@ export class CategoryComponent extends Component {
         return (
             <div className="categoryHolder row">
                 <div className="col-sm-12">
-                    <h1> Type </h1>
+                    <h2> Type </h2>
                 </div>
                 <div className="col-sm-12">
                     <h4> Click on one or more buttons to select type </h4>
