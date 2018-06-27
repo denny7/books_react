@@ -28,13 +28,13 @@ export class ModalContainer extends Component {
 
     addBook = (event) => {
         event.preventDefault();
-        const title = document.getElementById("title").value;
-        const author = document.getElementById("author").value;
-        const price = document.getElementById("price").value;
-        const typeElement = document.getElementById("type");
-        const type = typeElement.options[typeElement.selectedIndex].value;
-        const ratingElement = document.getElementById("rating");
-        const rating = ratingElement.options[ratingElement.selectedIndex].value;
+        var title = document.getElementById("title").value;
+        var author = document.getElementById("author").value;
+        var price = document.getElementById("price").value;
+        var typeElement = document.getElementById("type");
+        var type = typeElement.options[typeElement.selectedIndex].value;
+        var ratingElement = document.getElementById("rating");
+        var rating = ratingElement.options[ratingElement.selectedIndex].value;
 
         if (!title || title.lenght > 50) {
             this.setState({
@@ -69,6 +69,11 @@ export class ModalContainer extends Component {
         let id = Math.random().toString(16).slice(2);
         let newBook = { id: id, title: title, author: author, type: type, price: price, rating: Number(rating) }
         this.props.handleAddBook(newBook)
+        document.getElementById("title").value = "";
+        document.getElementById("author").value = "";
+        document.getElementById("price").value = "";
+        document.getElementById("type").value = "comedy";
+        document.getElementById("rating").value = "1";
         setTimeout(() => {
             document.getElementsByClassName("modalWrapper")[0].style.display = 'none';
         }, 1000);

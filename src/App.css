@@ -209,10 +209,19 @@ form > .row {
     width: 100% !important;
     padding-left: 15px;
   }
-
+  
+  .modalBody{
+    overflow: scroll !important;  
+    height: 500px !important;
+  }
+  
+  .btnCancel {
+    margin-bottom: 15px;
+  }
   .priceContainer {
     border-right: none;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
